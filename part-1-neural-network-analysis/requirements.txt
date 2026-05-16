@@ -1,0 +1,14 @@
+Task 6: Final Reflection
+
+Question - What role do weights and biases play in the model?
+Answer - Weights determine how strongly each input feature influences the output. Biases will allow the model to shift activation thresholds, which ensures flexibility. They are the parameters the network learns during training to map inputs to outputs.
+
+Question - Why is an activation function required?
+Answer - Without activation functions, the network would just be a stack of linear equations; and irrespective of the number of layers, it would collapse into one linear transformation. Activation functions (like ReLU or sigmoid) introduce non‑linearity, enabling the model to capture complex relationships in the data.
+
+Question - What happens when learning rate is too high or too low?
+Answer - If the learning rate is too high, the model shows an increase around the loss landscape, failing to converge or oscillate.
+If the learning rate is too low, training the model is at very slow, and may get stuck in local minima. A balanced learning rate ensures steady progress toward minimizing loss.
+
+Question - Did your model show signs of underfitting or overfitting? Explain.
+Answer - The model we just created with extra layers showed slightly higher training accuracy, however, it showed lower test accuracy, which is a sign of mild overfitting. It is a simple model with fewer neurons generalized better, indicating that the dataset did not require excessive complexity. Additionally, there was no strong underfitting observed, since even the baseline model captured meaningful patterns.
