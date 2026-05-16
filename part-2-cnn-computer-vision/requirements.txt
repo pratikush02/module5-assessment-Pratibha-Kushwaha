@@ -1,0 +1,15 @@
+Tool Requirements
+1. Python Version 3.10 to support TensorFlow. Python version 3.14.5 does not support TensorFlow unstallation
+2. Import TensorFlow to building and training the CNN
+3. Import Scikit learn to train-test split and evaluation metrics
+4. Import pandas to import the labels.csv dataset
+5. Import numpy for numerical operations on image arrays
+6. Import matplotlib & seaborn for plotting accuracy / loss curves and confusion matrix
+7. Pillow for image loading and resizing
+
+Basic Requirements
+1. Dataset Setup
+- Place labels.csv and Image folder in your working directory
+- Ensure the image folders (normal, scratch, dent, stain) are accessible
+2. Environment
+- The python code is written in Google Collab Notebook and is recommended to use collab for running the code
